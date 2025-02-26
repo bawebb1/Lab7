@@ -1,4 +1,4 @@
-```{python}
+{python}
 #| label: Python
 import streamlit as st
 import pandas as pd
@@ -44,4 +44,3 @@ if st.button("Predict Price"):
     prediction = model.predict(input_df)
     st.write(f"Predicted Price: ${prediction[0]:,.2f}")
 
-```
